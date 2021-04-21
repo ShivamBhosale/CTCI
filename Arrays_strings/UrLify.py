@@ -1,5 +1,5 @@
 def UrLify(str1,length):
-    str1 = str1[:len(str1)-(len(str1)-length)]
+    str1 = str1[:length)]
     str1=str1.replace(" ","%20")
     return str1
     
